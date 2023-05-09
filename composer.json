@@ -1,10 +1,10 @@
 {
-    "name": "belajarlibraryyuk/belajarlibrary2",
-    "description": "Belajar library composer sederhana",
+    "name": "belajaryuk/belajarphpcomposerhello",
+    "description": "belajar library",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Belajarlibraryyuk\\Belajarlibrary2\\": "src/"
+            "Belajaryuk\\Belajarphpcomposerhello\\": "src/"
         }
     },
     "authors": [
@@ -14,6 +14,12 @@
         }
     ],
     "require": {
-        "php":">=8.0"
-    }
+        "php":">=8.0",
+        "monolog/monolog":"3.3.1",
+        "belajarlibraryyuk/belajarlibrary2":"1.0.0"
+    },
+    "repositories": [{
+        "type":"vcs",
+        "url": "https://github.com/hirabayashi97/belajarcmposerlibraryhello"
+    }]
 }

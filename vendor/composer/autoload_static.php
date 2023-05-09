@@ -7,16 +7,37 @@ namespace Composer\Autoload;
 class ComposerStaticInit6789c82150792fd02eb464e226094fa1
 {
     public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
         'B' => 
         array (
+            'Belajaryuk\\Belajarphpcomposerhello\\' => 35,
             'Belajarlibraryyuk\\Belajarlibrary2\\' => 34,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Belajarlibraryyuk\\Belajarlibrary2\\' => 
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Belajaryuk\\Belajarphpcomposerhello\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Belajarlibraryyuk\\Belajarlibrary2\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/belajarlibraryyuk/belajarlibrary2/src',
         ),
     );
 
