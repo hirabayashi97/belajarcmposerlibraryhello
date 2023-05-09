@@ -1,0 +1,19 @@
+{
+    "name": "belajarlibraryyuk/belajarlibrary2",
+    "description": "Belajar library composer sederhana",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Belajarlibraryyuk\\Belajarlibrary2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hirabayashi97",
+            "email": "rizki07997@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0"
+    }
+}
